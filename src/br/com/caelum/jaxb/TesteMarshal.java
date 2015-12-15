@@ -26,7 +26,7 @@ public class TesteMarshal {
 		JAXBContext context = JAXBContext.newInstance(Livro.class);
 		
 		Marshaller marshaller = context.createMarshaller();
-		marshaller.marshal(livro, new FileOutputStream("livro.xml"));
 		marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+		marshaller.marshal(livro, new FileOutputStream("livro.xml"));
 	}
 }
