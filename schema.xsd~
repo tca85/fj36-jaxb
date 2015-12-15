@@ -9,7 +9,7 @@
       <xs:element name="codigo" type="tns:codigo" minOccurs="1"/>
       <xs:element name="nomeAutor" type="xs:string" minOccurs="0"/>
       <xs:element name="titulo" type="xs:string" minOccurs="0"/>
-      <xs:element name="valor" type="tns:valor" minOccurs="1"/>
+      <xs:element name="valor" type="tns:valor" minOccurs="0"/>
     </xs:sequence>
   </xs:complexType>
 
